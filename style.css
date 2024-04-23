@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-image: url(./images/close-up-islamic-new-year-concept.jpg);
+  background-size: cover;
+}
+
+#namazTiming {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+  gap: 1rem;
+}
+#cityName {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+  width: 20rem;
+  height: 3rem;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+}
+#submit {
+  width: 8rem;
+  height: 2rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  transition: 0.7s ease;
+}
+#submit:active {
+  transform: scale(0.95, 0.95);
+}
+#submit:hover {
+  cursor: pointer;
+}
+#dataContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+p {
+  background-color: rgba(255, 255, 255, 0.164);
+  padding: 2rem;
+}
+#showdata {
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 50px;
+  color: white;
+}
